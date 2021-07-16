@@ -44,9 +44,7 @@ html {
   font-size: 62.5%; }
   @media only screen and (max-width: 68.75em) {
     html {
-      font-size: 50%;
-      max-width: 100%;
-      width: 100%; } }
+      font-size: 50%; } }
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -66,7 +64,9 @@ body {
   min-height: 50rem; }
   @media only screen and (max-width: 75em) {
     .container {
-      margin: 0; } }
+      margin: 0;
+      max-width: 100%;
+      width: 100%; } }
 
 .header {
   font-size: 1.4rem;
@@ -84,7 +84,7 @@ body {
 
 .content {
   display: flex; }
-  @media only screen and (max-width: 68.75em) {
+  @media only screen and (max-width: 56.25em) {
     .content {
       flex-direction: column; } }
 
